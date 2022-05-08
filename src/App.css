@@ -95,11 +95,16 @@ body {
   }
   .catt {
     max-width: 300px;
+    max-height: 280px;
   }
   .tip {
     padding: 30px;
   }
   .title {
     width: 300px;
+    font-size: 25px;
+  }
+  .firstBtn {
+    font-size: 17px;
   }
 }
