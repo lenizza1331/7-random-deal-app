@@ -25,7 +25,6 @@ return (
         whileHover={{ 
             scale: 1.1,
             transition:{duration:.5, ease: 'easeInOut'},
-            background: '#62f094',
         }}
         
     >
