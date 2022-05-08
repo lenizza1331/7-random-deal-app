@@ -88,3 +88,18 @@ body {
   background-size: contain;
 }
 
+
+@media all and (max-width:500px){
+  .wiseCat {
+    width: 300px;
+  }
+  .catt {
+    max-width: 300px;
+  }
+  .tip {
+    padding: 30px;
+  }
+  .title {
+    width: 300px;
+  }
+}
