@@ -1,3 +1,35 @@
+/* font-family: 'Bad Script', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Fondamento', cursive; */
+.title {
+  font-family: 'Fondamento', cursive;
+  max-width: 350px;
+  text-align: center;
+  color: #005691;
+  background-color: rgb(236, 197, 70);
+  padding: 10px 50px;
+  border-radius: 50px 10px;
+}
+.firstBtn {
+  font-size: 25px;
+  margin: 25px;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  background-color: rgb(240, 217, 98);
+  cursor: pointer;
+}
+.firstBtn__link {
+  text-decoration: none;
+  color: #005691;
+  font-family: 'Cinzel', serif;
+  
+
+}
+.wiseCat {
+  max-width: 400px;
+}
+
 .catt{
   width: 350px;
   max-height: 400px;
@@ -5,21 +37,26 @@
   border: white 7px solid;
 
 }
-.App{
+.center{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
+  height: 100vh;
+  overflow: -moz-hidden-unscrollable;
 }
 .tip {
   padding: 40px;
-  width: 150px;
+  width: 200px;
   border-radius: 50%;
   background-color: rgb(245, 254, 255);
   border: white 2px solid;
   font-size: 18px;
   text-align: center;
   color: rgb(26, 26, 124);
+  font-family: 'Bad Script', cursive;
+  font-family: 'Cinzel', serif;
+
 }
 p {
   border-radius: 50%;
@@ -27,24 +64,27 @@ p {
   border: white 2px solid;
 }
 .up{
-  padding: 18px;
-}
-.middle {
-  padding: 13px;
+  padding: 10px 18px;
 }
 .down {
-  padding: 10px;
+  padding: 6px 10px;
 }
 .btn {
   border-radius: 10px;
   padding: 10px 30px;
-  background-color: rgb(5, 170, 5);
+  background-color: rgb(212, 153, 3);
   color: white;
   font-size: 20px;
   border: white 1px solid;
   cursor: pointer;
   margin: 15px;
+  font-family: 'Cinzel', serif;
+
 }
 body {
-  background-color: cornflowerblue;
+  background-color: #FFC024;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%23FFC024' cx='50' cy='0' r='50'/%3E%3Cg fill='%23f7c02f' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%23eec03a' cx='50' cy='100' r='50'/%3E%3Cg fill='%23e6bf45' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ddbf50' cx='50' cy='200' r='50'/%3E%3Cg fill='%23d5bf5b' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%23ccbf66' cx='50' cy='300' r='50'/%3E%3Cg fill='%23c4bf71' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%23bbbe7c' cx='50' cy='400' r='50'/%3E%3Cg fill='%23b3be87' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%23aabe92' cx='50' cy='500' r='50'/%3E%3Cg fill='%23a2be9c' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%2399bea7' cx='50' cy='600' r='50'/%3E%3Cg fill='%2391bdb2' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%2388bdbd' cx='50' cy='700' r='50'/%3E%3Cg fill='%2380bdc8' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%2377bdd3' cx='50' cy='800' r='50'/%3E%3Cg fill='%236fbdde' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%2366bce9' cx='50' cy='900' r='50'/%3E%3Cg fill='%235ebcf4' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%2355BCFF' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: contain;
 }
+
