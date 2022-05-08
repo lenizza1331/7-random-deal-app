@@ -103,6 +103,9 @@ body {
   .title {
     width: 300px;
     font-size: 25px;
+    padding: 10px 20px;
+    max-width: 300px;
+
   }
   .firstBtn {
     font-size: 17px;
